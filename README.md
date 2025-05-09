@@ -46,19 +46,19 @@ A modern and sleek image search app that fetches high-quality, royalty-free imag
 
 
 
-Usage
+##Usage
 Search for images: Type a query into the search bar and press enter to fetch images related to your query.
 
 Show more images: Click on the "Show More" button to load more images without reloading the page.
 
 Toggle dark mode: Click on the dark mode button in the top-right corner to switch between light and dark themes.
 
-Dark Mode
+##Dark Mode
 This app comes with a dark mode toggle to provide a better user experience. The mode can be toggled on/off by clicking the dark/light mode button in the top-right corner.
 
 
 
-Contributing
+##Contributing
 Fork the repository.
 
 Create your feature branch (git checkout -b feature-branch).
