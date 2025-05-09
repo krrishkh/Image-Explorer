@@ -5,8 +5,8 @@ import Loader from './components/loader.js';
 import ErrorMessage from './components/errorMessage.js';
 import axios from 'axios';
 
-const API_KEY = '50194000-a6e4c03e07b2ed577b9cb0166';
-const BASE_URL = 'https://pixabay.com/api/';
+const API_KEY = process.env.REACT_APP_PIXABAY_API_KEY;
+const BASE_URL = process.env.REACT_APP_PIXABAY_BASE_URL;
 const IMAGES_PER_PAGE = 20;
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
   const [error, setError] = useState('');
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Apply dark mode class to <html>
+  
   useEffect(() => {
     const root = document.documentElement;
     if (isDarkMode) {
