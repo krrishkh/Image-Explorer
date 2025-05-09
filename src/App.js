@@ -141,6 +141,18 @@ const App = () => {
           </>
         )}
       </div>
+       {/* Footer with Credits */}
+      <footer className="text-center text-sm text-gray-500 dark:text-gray-400 py-4">
+        Built by{' '}
+        <a
+          href="https://dev-krrish.vercel.app/"
+          className="underline hover:text-blue-500"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Krrish Khandelwal
+        </a>
+      </footer>
     </div>
   );
 };
