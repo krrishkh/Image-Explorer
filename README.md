@@ -26,3 +26,48 @@ A modern and sleek image search app that fetches high-quality, royalty-free imag
 
    ```bash
    git clone https://github.com/krrishkh/anivale_assignment.git
+   
+2. Navigate into the project directory:
+   cd anivale_assignment
+   
+4. Install the required dependencies:
+   npm install
+
+5. Create a .env file at the root of the project and add your Pixabay API key:
+   REACT_APP_PIXABAY_API_KEY=your_api_key
+
+6. Start the development server:
+   npm start
+
+7. Open http://localhost:3000 in your browser.
+
+
+
+
+Usage
+Search for images: Type a query into the search bar and press enter to fetch images related to your query.
+
+Show more images: Click on the "Show More" button to load more images without reloading the page.
+
+Toggle dark mode: Click on the dark mode button in the top-right corner to switch between light and dark themes.
+
+Dark Mode
+This app comes with a dark mode toggle to provide a better user experience. The mode can be toggled on/off by clicking the dark/light mode button in the top-right corner.
+
+
+
+Contributing
+Fork the repository.
+
+Create your feature branch (git checkout -b feature-branch).
+
+Commit your changes (git commit -am 'Add new feature').
+
+Push to the branch (git push origin feature-branch).
+
+Create a new Pull Request.
+
+
+
+
+
