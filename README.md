@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Pixabay Image Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and sleek image search app that fetches high-quality, royalty-free images from [Pixabay](https://pixabay.com/). The app allows users to search for images, explore various results, and switch between light and dark modes for a customizable experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Search for images**: Discover images from the Pixabay API.
+- **"Show More" button**: Load additional images without page reload.
+- **Dark Mode Toggle**: Switch seamlessly between light and dark themes.
+- **Responsive Design**: Fully responsive for both desktop and mobile devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Pixabay API**: Provides access to a vast collection of high-quality images.
+- **Axios**: Promise-based HTTP client for making API requests.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+![homepage](https://github.com/user-attachments/assets/a4f0ce96-0b70-4a27-90bd-383de4f02bd4)
+![image](https://github.com/user-attachments/assets/494fc786-1b4c-4248-9663-142310edab00)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/krrishkh/Image-Explorer.git
+   
+2. Navigate into the project directory:
+   cd anivale_assignment
+   
+4. Install the required dependencies:
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Create a .env file at the root of the project and add your Pixabay API key:
+   REACT_APP_PIXABAY_API_KEY=your_api_key
 
-### `npm run eject`
+6. Start the development server:
+   npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+7. Open http://localhost:3000 in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Usage
+Search for images: Type a query into the search bar and press enter to fetch images related to your query.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Show more images: Click on the "Show More" button to load more images without reloading the page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Toggle dark mode: Click on the dark mode button in the top-right corner to switch between light and dark themes.
 
-### Code Splitting
+## Dark Mode
+This app comes with a dark mode toggle to provide a better user experience. The mode can be toggled on/off by clicking the dark/light mode button in the top-right corner.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
+Fork the repository.
 
-### Making a Progressive Web App
+Create your feature branch (git checkout -b feature-branch).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Commit your changes (git commit -am 'Add new feature').
 
-### Advanced Configuration
+Push to the branch (git push origin feature-branch).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Create a new Pull Request.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
