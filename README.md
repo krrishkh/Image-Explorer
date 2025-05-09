@@ -27,7 +27,7 @@ A modern and sleek image search app that fetches high-quality, royalty-free imag
 1. Clone this repository:
 
    ```bash
-   [git clone https://github.com/krrishkh/anivale_assignment.git](https://github.com/krrishkh/Image-Explorer.git)
+   git clone https://github.com/krrishkh/anivale_assignment.git
    
 2. Navigate into the project directory:
    cd anivale_assignment
