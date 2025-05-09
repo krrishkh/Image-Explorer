@@ -18,7 +18,9 @@ A modern and sleek image search app that fetches high-quality, royalty-free imag
 
 ## Screenshots
 
-![Screenshot](path/to/screenshot.png)
+![homepage](https://github.com/user-attachments/assets/a4f0ce96-0b70-4a27-90bd-383de4f02bd4)
+![image](https://github.com/user-attachments/assets/494fc786-1b4c-4248-9663-142310edab00)
+
 
 ## Installation
 
